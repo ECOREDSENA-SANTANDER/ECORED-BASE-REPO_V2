@@ -20,7 +20,15 @@ npm run serve
 
 Por defecto Vite suele levantar en `http://localhost:5173` (si el puerto está ocupado, usará otro y lo mostrará en consola).
 
+<!-- GH_PAGES_LINK_START -->
 
+Tras publicar en **GitHub Pages**, la URL de referencia suele ser:
+
+- [https://ecoredsena-santander.github.io/ECORED-BASE-REPO_v2/](https://ecoredsena-santander.github.io/ECORED-BASE-REPO_v2/)
+
+*(Este bloque se actualiza al ejecutar `npm run serve`; el nombre del repo se toma del `origin` de Git o, si no hay remoto, del nombre de la carpeta del proyecto.)*
+
+<!-- GH_PAGES_LINK_END -->
 
 ## Lint
 
