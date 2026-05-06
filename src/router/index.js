@@ -1,9 +1,9 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Inicio from '@ecored-sena/qa-kit/plugin/components/Inicio.vue'
-import Curso from '@ecored-sena/qa-kit/plugin/components/plantilla/Curso.vue'
-import Glosario from '@ecored-sena/qa-kit/plugin/components/Glosario.vue'
-import Referencias from '@ecored-sena/qa-kit/plugin/components/Referencias.vue'
-import Creditos from '@ecored-sena/qa-kit/plugin/components/Creditos.vue'
+import Inicio from '@ecored-sena/boulder-kit/plugin/components/Inicio.vue'
+import Curso from '@ecored-sena/boulder-kit/plugin/components/plantilla/Curso.vue'
+import Glosario from '@ecored-sena/boulder-kit/plugin/components/Glosario.vue'
+import Referencias from '@ecored-sena/boulder-kit/plugin/components/Referencias.vue'
+import Creditos from '@ecored-sena/boulder-kit/plugin/components/Creditos.vue'
 
 const router = createRouter({
   history: createWebHashHistory(),

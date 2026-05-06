@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store/index.js'
-import legoRedPlugin from '@ecored-sena/qa-kit'
+import legoRedPlugin from '@ecored-sena/boulder-kit'
 import config from './config/global.js'
 import packageJson from '../package.json'
 

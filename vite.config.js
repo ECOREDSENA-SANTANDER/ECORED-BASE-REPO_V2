@@ -65,10 +65,6 @@ module.exports = defineConfig(({ mode }) => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src'),
-        '@ecored/require-src': path.resolve(
-          __dirname,
-          'plugin/utils/requireSrc.js',
-        ),
       },
       extensions: ['.vue', '.mjs', '.js', '.ts', '.jsx', '.tsx', '.json'],
     },

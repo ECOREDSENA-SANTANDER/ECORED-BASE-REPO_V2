@@ -20,7 +20,7 @@
     "vue": "^3.5.30",
     "vue-router": "^4.2.0",
     "vuex": "^4.1.0",
-    "@ecored-sena/qa-kit": "^0.0.9"
+    "@ecored-sena/boulder-kit": "^1.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
