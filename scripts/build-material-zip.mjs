@@ -1,4 +1,4 @@
-import { mkdir, rm } from 'node:fs/promises'
+import { mkdir, rm, stat } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { spawn } from 'node:child_process'
@@ -30,10 +30,17 @@ function run(cmd, args, opts) {
 }
 
 async function main() {
+  try {
+    await stat(outZip)
+    await rm(outZip)
+    console.log(`Eliminado zip previo: ${path.relative(root, outZip)}`)
+  } catch (e) {
+    if (e?.code !== 'ENOENT') throw e
+  }
+
   await run('npm', ['run', 'build'], { cwd: root })
 
   await mkdir(outDir, { recursive: true })
-  await rm(outZip, { force: true })
 
   // Contenido en la raíz del zip (equivalente a archiver.directory(dist, false))
   await run('zip', ['-qr', outZip, '.'], { cwd: distDir })

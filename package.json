@@ -6,7 +6,7 @@
     "serve": "node scripts/sync-readme-github-pages-link.mjs && vite",
     "build": "vite build --mode file",
     "zip": "node scripts/build-material-zip.mjs",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "build-plugin": "vite build"
   },
   "engines": {
