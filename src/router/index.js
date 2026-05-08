@@ -67,7 +67,7 @@ const router = createRouter({
       path: '/sintesis',
       name: 'sintesis',
       component: () =>
-        import(/* webpackChunkName: "sintesis" */ '../views/sintesis.vue'),
+        import(/* webpackChunkName: "sintesis" */ '../views/Sintesis.vue'),
     },
     {
       path: '/creditos',
