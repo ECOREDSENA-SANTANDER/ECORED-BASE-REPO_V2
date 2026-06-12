@@ -130,7 +130,7 @@ export default {
         {
           nombre: ' ',
           cargo: ' ',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
